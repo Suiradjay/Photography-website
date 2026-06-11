@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Gallery — A Virtual Photography Exhibition</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="brand">The Gallery</div>
+    <nav class="site-nav" id="site-nav"></nav>
+  </header>
+
+  <section class="hero">
+    <h1>A Virtual Exhibition</h1>
+    <p>Step through a curated collection of portrait, editorial, sport, and lifestyle photography.</p>
+  </section>
+
+  <main id="exhibition"></main>
+
+  <footer class="site-footer">
+    <p>&copy; <span id="year"></span> — All photographs property of the artist.</p>
+  </footer>
+
+  <div class="lightbox" id="lightbox" hidden>
+    <button class="lightbox-close" id="lightbox-close" aria-label="Close">&times;</button>
+    <button class="lightbox-prev" id="lightbox-prev" aria-label="Previous">&#8249;</button>
+    <img class="lightbox-image" id="lightbox-image" alt="" />
+    <button class="lightbox-next" id="lightbox-next" aria-label="Next">&#8250;</button>
+    <div class="lightbox-caption" id="lightbox-caption"></div>
+  </div>
+
+  <script src="js/gallery-data.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

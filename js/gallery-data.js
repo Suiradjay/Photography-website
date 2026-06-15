@@ -29,6 +29,19 @@ const EXHIBITION = [
     ]
   },
   {
+    id: "raymond",
+    title: "Portraits — Raymond",
+    description: "A studio portrait series with bold lighting and composition.",
+    photos: [
+      { id: "1MVPqwRUEd6gvz18weT_NEaOoRkpY8Xpg", caption: "Raymond, Study I" },
+      { id: "1IphAVKDXfkfmlBoUhNCze0qvouTSEvUl", caption: "Raymond, Study II" },
+      { id: "1B8Ah4KQ5Mabkzkd-oF3DAOB7vbX1QUqj", caption: "Raymond, Study III" },
+      { id: "1iUNoCk2oRUyBgTt5d0iwkGGUSneVjAX0", caption: "Raymond, Study IV" },
+      { id: "1kn7GOtiEsL7A1MYF9xxzR1fH0Mm7wb73", caption: "Raymond, Study V" },
+      { id: "1XFuwKTuzqEHE6beDwPhqLKSeUiSGHpqg", caption: "Raymond, Study VI" }
+    ]
+  },
+  {
     id: "sports",
     title: "Action — Rockets",
     description: "Fast-paced sports photography frozen in motion.",

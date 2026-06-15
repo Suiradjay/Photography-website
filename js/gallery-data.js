@@ -17,18 +17,6 @@ const EXHIBITION = [
     ]
   },
   {
-    id: "ahhside",
-    title: "Golden Hour — Ahhside",
-    description: "Warm tones and natural light from an outdoor session.",
-    photos: [
-      { id: "1QMgvLzzR7IAoDqSzU0uTQr13KH_Mz2va", caption: "Ahhside, Frame I" },
-      { id: "17pN3j0hrDiQs5xpt2xcDsdDeJW6XZZI3", caption: "Ahhside, Frame II" },
-      { id: "1zRCUVOB-iMVOOnodusjsWjX6XBhlDPqL", caption: "Ahhside, Frame III" },
-      { id: "1il5n9DkzVYBXIRtsrEET9gh-NO_eYlsJ", caption: "Ahhside, Frame IV" },
-      { id: "1RAnMTBhYOfE9dwtY02M9YQPeSxN-MXLB", caption: "Ahhside, Frame V" }
-    ]
-  },
-  {
     id: "editorial",
     title: "Editorial — Arneisha",
     description: "Bold color and high-fashion editorial styling.",
